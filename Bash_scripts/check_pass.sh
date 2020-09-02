@@ -43,4 +43,4 @@ do
 	echo "Wrong Password"
 done
 echo "You failed $ntry_max times"
-exit -1
+exit 1
