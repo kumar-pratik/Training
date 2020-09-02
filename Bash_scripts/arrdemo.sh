@@ -37,11 +37,11 @@ student=(Pratik John Richa Raunak)
 
 ################################################################
 #Ways to print array
-echo "Fruits are: ${fruits[@]}"
-echo "Unix are: ${unix[@]}"
-echo "Students are:${student[@]}"
-echo ${fruit[1]}
-echo ${fruit[3]}
+echo "Fruits are: ${fruits[*]}"
+echo "Unix are: ${unix[*]}"
+echo "Students are:${student[*]}"
+echo ${fruits[1]}
+echo ${fruits[3]}
 echo ${unix[1]}
 
 #Length of array and elements
