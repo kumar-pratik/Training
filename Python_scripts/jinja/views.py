@@ -16,7 +16,7 @@
 #    MODIFICATION: Describe the chages made. What do they enhance.
 # 
 # set -n   # Uncomment to check script syntax, without execution.
-#          # NOTE: Do forget comment it back as it won't allow the 
+#          # Note: Do forget comment it back as it won't allow the 
 #          # the script to execute.
 #
 # set +x   # Uncomment this for debugging this shell script.

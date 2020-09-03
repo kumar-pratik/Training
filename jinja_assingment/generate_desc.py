@@ -39,7 +39,6 @@ template_file='/home/pratik/Training/jinja_assingment/discription.txt'
 def print_discription(file, employees):
     with open(file) as f:
         tmpl = Template(f.read())
-    print(tmpl)
     print (tmpl.render(employees=employees))
 ################################################################
 ################################################################
