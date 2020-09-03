@@ -1,0 +1,6 @@
+{% for employee in employees  %}
+This is a short discription of {{ employee['name'] }}. 
+His Employee Id is {{ employee['eid'] }}
+He has been working in the company since {{ employee['date']}}
+His designated role in the office is {{ employee['role']}}
+{% endfor %}
