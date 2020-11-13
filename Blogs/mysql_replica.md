@@ -37,7 +37,11 @@ mysql> show slave status\G;
 ```
 6. Now create a snapshot from the "read-1" and call it "snap-1"
 7. Now use "snap-1" to create a new db instance and call it "master-2"
-8. 
+8. Now configure "master-2" to be slave of "master-1"
+```sh
+mysql> CALL mysql.rds_set_external_master('master-1-host', 
+     'replicator', 'password', 'mysql-bin-changelog.000023', 156, 0);
+```
 
 
 
